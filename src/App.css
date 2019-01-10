@@ -1,32 +1,88 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Display{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  padding-bottom: 4px;
+  /*align-items: right;*/
+}
+.Display-Edit{
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.edit-text{
+  padding-left: 16px;
+}
+.Display-Text{
+  margin-right: 10px;
+}
+.Add-Content{
+  width: 30%;
+  margin-left: 41%;
+}
+input{
+  margin-top: 14px; 
+   padding: 8px 12px;
+}
+textarea{
+   height: 30px;
+  margin-top: 14px;
+}
+input[type=text]{
+  margin-top: 30px;
+  margin-right: 10px;
+}
+::placeholder{
+padding-left: 5px;
+}
+.Display-Save{
+  height: 30px;
+ background-color: #4CAF50; /* Green */
+  border: none;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 32px;
+  border-radius: 5px;
+}
+.Display-Delete{
+  background-color: #DC143C; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 15px;
+  height: 30%;
+  border-radius: 3px;
+}
+ .Display-Edit{
+  background-color: #FFA07A; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 15px;
+  height: 30%;
+  border-radius: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 4px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
